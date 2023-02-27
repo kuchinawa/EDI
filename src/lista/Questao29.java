@@ -1,8 +1,8 @@
 package lista;
 
 public class Questao29 {
-	private static int[] array = { 8, 2, 1, 6, 5 }; //inicializa o arrya com os numero
-	private static int indice = 2; //define o indice a ser movido
+	private static int[] array = { 8, 2, 1, 6, 5 }; // inicializa o arrya com os numero
+	private static int indice = 2; // define o indice a ser movido
 
 	public static void main(String[] args) {
 		System.out.println("Entrada: ");

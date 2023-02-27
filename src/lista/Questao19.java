@@ -10,12 +10,12 @@ public class Questao19 {
 
 		if (n < 1 || n > 9) {
 			System.out.println("Numero invalido. Digite um numero de 1 a 9");
-			return;
 		}
 
 		for (int i = 1; i <= 10; i++) {
 			int resultado = n * i;
 			System.out.println(n + " x " + i + " = " + resultado);
 		}
+		entrada.close();
 	}
 }

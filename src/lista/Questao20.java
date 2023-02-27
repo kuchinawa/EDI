@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Questao20 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite o valor do investimento inicial: ");
-        double investimentoInicial = scanner.nextDouble();
+        double investimentoInicial = entrada.nextDouble();
 
         System.out.print("Digite o valor do investimento mensal: ");
-        double investimentoMensal = scanner.nextDouble();
+        double investimentoMensal = entrada.nextDouble();
 
         System.out.print("Digite a quantidade de meses do investimento: ");
-        int meses = scanner.nextInt();
+        int meses = entrada.nextInt();
 
         System.out.print("Digite a taxa de juros mensal (em %): ");
-        double taxaJurosMensal = scanner.nextDouble();
+        double taxaJurosMensal = entrada.nextDouble();
 
         double saldoAcumulado = investimentoInicial;
         double jurosMensais;
@@ -33,7 +33,7 @@ public class Questao20 {
             System.out.printf("Mes " + i + ": rendimento mensal = " +  rendimentoMensal + ",\t \t saldo acumulado = " + saldoAcumulado);
             System.out.printf("\n");
         }
-        scanner.close();
+        entrada.close();
     }
 }
 

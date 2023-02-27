@@ -19,5 +19,6 @@ public class Questao25 {
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.print(vetor[i] + "|");
 		}
+		entrada.close();
 	}
 }

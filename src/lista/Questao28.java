@@ -2,7 +2,7 @@ package lista;
 
 public class Questao28 {
 	public static void main(String[] args) {
-		int[] vetor = { 3, 7, 2, 9, 5};
+		int[] vetor = { 3, 7, 2, 9, 5 };
 
 		int maior = vetor[0];
 		int menor = vetor[0];

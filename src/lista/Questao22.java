@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Questao22 {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 		System.out.print("Digite o número inicial do intervalo: ");
-		int inicio = input.nextInt();
+		int inicio = entrada.nextInt();
 		System.out.print("Digite o número final do intervalo: ");
-		int fim = input.nextInt();
+		int fim = entrada.nextInt();
 
 		int soma = 0;
 		for (int i = inicio; i <= fim; i++) {
@@ -16,5 +16,6 @@ public class Questao22 {
 		}
 
 		System.out.println("O somatório dos números inteiros do intervalo de " + inicio + " a " + fim + " é: " + soma);
+		entrada.close();
 	}
 }

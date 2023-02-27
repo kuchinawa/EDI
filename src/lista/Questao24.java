@@ -43,6 +43,7 @@ public class Questao24 {
 			}
 
 		} while (opcao != 0);
+		entrada.close();
 	}
 
 	public static int calcularFatorial(int numero) {

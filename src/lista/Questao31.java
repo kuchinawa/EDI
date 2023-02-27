@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Questao31 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 
 		System.out.print("Digite a quantidade de pessoas: ");
-		int n = sc.nextInt();
+		int n = entrada.nextInt();
 
 		Questao31Pessoa[] pessoas = new Questao31Pessoa[n];
 
@@ -15,25 +15,25 @@ public class Questao31 {
 			System.out.println("\nDados da pessoa #" + (i + 1) + ":");
 
 			System.out.print("CPF: ");
-			int cpf = sc.nextInt();
-			sc.nextLine();
+			int cpf = entrada.nextInt();
+			entrada.nextLine();
 
 			System.out.print("Nome: ");
-			String nome = sc.nextLine();
+			String nome = entrada.nextLine();
 
 			System.out.print("Idade: ");
-			int idade = sc.nextInt();
+			int idade = entrada.nextInt();
 
-			sc.nextLine();
+			entrada.nextLine();
 
 			System.out.print("Sexo (M/F): ");
-			char sexo = sc.nextLine().charAt(0);
+			char sexo = entrada.nextLine().charAt(0);
 
 			System.out.print("Peso (kg): ");
-			double peso = sc.nextDouble();
+			double peso = entrada.nextDouble();
 
 			System.out.print("Altura (m): ");
-			double altura = sc.nextDouble();
+			double altura = entrada.nextDouble();
 
 			pessoas[i] = new Questao31Pessoa(cpf, nome, idade, sexo, peso, altura);
 		}
@@ -44,6 +44,6 @@ public class Questao31 {
 			System.out.println(p);
 		}
 
-		sc.close();
+		entrada.close();
 	}
 }

@@ -14,5 +14,6 @@ public class Questao23 {
 		}
 
 		System.out.println("O fatorial de " + numero + " e: " + fatorial);
+		entrada.close();
 	}
 }
